@@ -1,0 +1,178 @@
+body
+{
+    background-color: rgb(165, 142, 175);
+}
+
+main
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgba(255, 255, 255, 0.795);
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+#topo
+{
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap:wrap;
+}
+
+#botão
+{
+    background-color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    border-radius: 100px;
+    margin: 5px
+}
+
+#a1
+{
+    text-align: center;
+    color: rgb(34, 34, 59);
+}
+
+#marquee
+{
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#carrossel
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+table
+{
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 640px;
+    margin: auto;
+}
+
+#tabela
+{
+    background-color: rgba(0, 0, 0, 0.158);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 340px;
+    margin: auto;
+}
+
+#titulo
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#tudo
+{
+    background-color: rgba(0, 0, 0, 0.144);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+}
+
+#pulsar
+{
+    position:relative;
+    top:0;
+    padding:2px;
+    transition: all .2s ease-in-out
+}
+
+#pulsar:hover
+{
+    top: -4px;
+    right: -4px;
+}
+
+.pulsar
+{
+    position:relative;
+    top:0;
+    padding:2px;
+    transition: all .2s ease-in-out
+}
+
+.pulsar:hover
+{
+    top: -4px;
+    right: -4px;
+}
+
+#flexbox
+{
+    background-color: rgba(0, 0, 0, 0.233);
+    max-width:550px ;
+    padding: 10px;
+}
+
+#flexbox_c
+{
+    background-color: rgba(0, 0, 0, 0.233);
+    max-width:550px ;
+    padding: 5px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 10px 20px;
+}
+
+#menu
+{
+    background-color: rgba(0, 0, 0, 0.233);
+    max-width:450px ;
+    padding: 10px;
+}
+
+#menu_c
+{
+    background-color: rgba(0, 0, 0, 0.233);
+    max-width:450px ;
+    min-height: 200px;
+    padding: 5px;
+}
+
+.item_1
+{
+    align-self:flex-start;
+}
+
+.item_2
+{
+    align-self:center;
+}
+
+.item_3
+{
+    align-self:flex-end;
+}
